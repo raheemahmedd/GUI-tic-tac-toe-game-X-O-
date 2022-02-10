@@ -783,7 +783,10 @@ public class ticTacToeGame extends JFrame {
 		    	  btn22.setBackground(new Color(248, 248, 255));
 		    	  textField.setText("0");
 		    	  textField_1.setText("0");
-		    	  startGame="X";
+			   playerX_score=0;
+		    	   playerO_score=0;
+		    	   startGame="X";
+			   
 		    	    btn00.setEnabled(true);
 		    	    btn01.setEnabled(true);
 		    	    btn02.setEnabled(true);
